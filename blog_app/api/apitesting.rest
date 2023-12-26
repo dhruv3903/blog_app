@@ -1,0 +1,28 @@
+###
+POST http://localhost:5000/api/reg
+Content-Type: application/json
+
+{
+    "username":"koustubh",
+    "password":"123"
+}
+###
+POST http://localhost:5000/api/logincheck
+Content-Type: application/json
+
+{
+    "username":"koustubh",
+    "password":"123"
+}
+
+###
+GET http://localhost:5000/api/allproducts
+
+###
+POST http://localhost:5000/addblog
+Content-Type:application/json
+
+{
+    "heading":"jjj",
+    "content":"ssss"
+}
